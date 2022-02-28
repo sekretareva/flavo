@@ -8,9 +8,9 @@ foldername = 'html'
 filenames = os.listdir(foldername+'/')
  
 try:
-    fl = pd.read_csv('categories.csv')
+    ctg = pd.read_csv('categories.csv')
 except IOError:
-    fl = pd.DataFrame([], columns=['Category','System', 'Subsystem', 'Function'])
+    ctg = pd.DataFrame([], columns=['Category','System', 'Subsystem', 'Function'])
 
 
 for filename in filenames:
@@ -28,24 +28,24 @@ for filename in filenames:
                 subheads = re.split('\(\d+\)',a[i])
                 subheads = [element for element in subheads if element]
                 for subhead in range(1, len(subheads)):
-                    if subheads[subhead].strip() not in fl['Subsystem'].unique():
-                        fl = fl.append({'Category':head.strip(), 
+                    if subheads[subhead].strip() not in ctg['Subsystem'].unique():
+                        ctg = ctg.append({'Category':head.strip(), 
                               'System':subheads[0].strip(), 
                               'Subsystem':subheads[subhead].strip(), 
                               'Function':''}, ignore_index=True)
                         count+=1
                 if (len(subheads)==1):
-                    if subheads[0].strip() not in fl['System'].unique():
-                        fl = fl.append({'Category':head.strip(), 
+                    if subheads[0].strip() not in ctg['System'].unique():
+                        ctg = ctg.append({'Category':head.strip(), 
                               'System':subheads[0].strip(), 
-                              'Subsystem':'', 
+                              'Subsystem':'none', 
                               'Function':''}, ignore_index=True)
                         count+=1
                         
                             
         print(str(count) + ' new subsystems from file ' + filename)
                             
-fl.to_csv('categories.csv', index=False)
+ctg.to_csv('categories.csv', index=False)
                     
             
         

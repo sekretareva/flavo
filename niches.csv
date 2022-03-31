@@ -1,0 +1,55 @@
+Strain,Niche,HA,Subniche,Host
+83,water,y,freshwater,sediment
+316,water,y,marine,
+94-081,water,y,freshwater,channel catfish
+ABG,water,n,freshwater,
+ACAM 123,water,n,salt lagoon,
+ATCC 29551,water,y,freshwater,salmon
+ATCC 35035,water,y,freshwater,Oncorynchus
+ATCC 49512,water,y,freshwater,diseased channel catfish
+ATCC BAA-2541,water,y,freshwater,Oncorynchus
+B17,terrestrial,y,plant,rice endophytes
+CF136,terrestrial,y,plant,poplar root
+CSF-298-10,water,y,freshwater,rainbow trout
+DD5b,water,y,freshwater,Daphnia magna
+DK69,terrestrial,n,soil,
+DSM 12611,water,n,freshwater,
+DSM 15343,water,n,freshwater,
+DSM 15936,terrestrial,y,soil / animal,ginseng field / gut of earthworm
+DSM 17447,water,n,freshwater,warm springs
+DSM 17623,water,n,marine,sediment
+DSM 17707,terrestrial,n,soil,
+DSM 17708,terrestrial,n,soil,
+DSM 19725,water,y,freshwater,salmon
+DSM 2063,water,y,freshwater,salmon
+DSM 21788,water,n,freshwater,
+DSM 22377,water,y,salt lake,cyanobacterial mat
+EC11,water,y,marine,brown algae
+EM1321,water,n,freshwater,
+F52,terrestrial,y,plant,rhizosphere of bell pepper
+FL-15,water,y,freshwater,sheatfish
+FPG3,water,y,freshwater,Oncorhynchus
+GSE09,terrestrial,y,soil,root
+HBTb2-11-1,terrestrial,y,soil,"lily, rhizosphere soil"
+IK-1,terrestrial,y,decaing wood,
+JC2902,water,n,freshwater,sediment
+JIP0286,water,y,freshwater,salmonide
+Leaf359,terrestrial,y,plant,plant leaf
+Leaf82,terrestrial,y,plant,plant leaf
+LMG 10402,water,y,freshwater,chinook salmon
+LMG 25512,water,n,freshwater,
+LMG 26729,water,n,freshwater,
+LPB0076,water,y,marine,Crassostrea gigas
+M31R6,water,y,freshwater,Phoxinus keumkang
+MEB061,terrestrial,y,plant,plant leaf
+Pf1,water,y,freshwater,yellow catfish
+PL002,water,y,marine,Porphyra Algae
+PS1,water,n,marine,
+R2A-7,water,n,freshwater,sediment
+Root186,terrestrial,y,plant,root
+Root420,terrestrial,y,plant,root
+SLB02,water,y,freshwater,sponge
+TP390,water,y,marine,sponge
+UGB4466,water,y,freshwater,rainbow trout
+UW101,terrestrial,n,soil,-
+VMW,water,n,freshwater,
